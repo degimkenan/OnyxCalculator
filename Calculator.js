@@ -73,7 +73,7 @@ class Calculator {
         this.Day++;
         this.XPTposeCount = 0;
         this.DRTposeCount = 0;
-        if (this.Day > 2000) {
+        if (this.Day > 7300) {
           break;
         }
       }

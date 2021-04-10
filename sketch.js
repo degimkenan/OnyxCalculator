@@ -391,8 +391,8 @@ function calculateOptimized() {
 }
 
 function buildTable(data, table) {
+   table.innerHTML = "";
   for (let i = 0; i < data.length; i++) {
-    table.innerHTML = "";
     let row = `<tr>
             <td>${data[i][0]}</td>
             <td>${data[i][1]}</td>
